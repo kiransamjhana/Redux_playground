@@ -1,14 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { useState } from "react";
+
 import { Button } from "./Components/Button";
 import { DisplayData } from "./Components/DisplayData";
+import { FormData } from "./Components/FormComponent/FormData";
+import { RealTime } from "./Components/FormComponent/RealTime";
 
 function App() {
   return (
     <div className="App">
       <DisplayData />
       <Button />
+      <FormData />
+      <RealTime />
     </div>
   );
 }
